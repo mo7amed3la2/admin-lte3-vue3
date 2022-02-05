@@ -13,6 +13,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // adminlte css
 import "./assets/dist/css/adminlte.min.css";
 // adminlte js
-import "./assets/dist/js/adminlte.min.js";
+// import "./assets/dist/js/adminlte.min.js";
 
 createApp(App).mount("#app");
