@@ -32,7 +32,7 @@
       <!-- /.content-header -->
 
       <!-- Main content -->
-      <Home />
+      <router-view />
       <!-- /.content -->
     </div>
     <!-- /.content-wrapper -->
@@ -45,7 +45,6 @@
     <Mainfooter />
   </div>
   <!-- ./wrapper -->
-
 </template>
 
 <script>
@@ -55,9 +54,6 @@ import MainSidebar from "./components/global/MainSidebar.vue";
 import ControlSidebar from "./components/global/ControlSidebar.vue";
 import Mainfooter from "./components/global/Mainfooter.vue";
 
-// pages
-import Home from "./pages/Home.vue";
-
 export default {
   name: "App",
   components: {
@@ -65,7 +61,6 @@ export default {
     MainSidebar,
     ControlSidebar,
     Mainfooter,
-    Home,
   },
   data() {
     return {

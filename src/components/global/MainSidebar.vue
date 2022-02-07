@@ -58,22 +58,34 @@
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Starter Pages
+                Pages
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link active">
+                <router-link to="/" exact class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Active Page</p>
-                </a>
+                  <p>Home</p>
+                </router-link>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <router-link to="/users" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Inactive Page</p>
-                </a>
+                  <p>Users</p>
+                </router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="/charts" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Charts</p>
+                </router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="/about" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>About</p>
+                </router-link>
               </li>
             </ul>
           </li>
@@ -96,6 +108,6 @@
 
 <script>
 export default {
-  props: ["brand","user"],
+  props: ["brand", "user"],
 };
 </script>
