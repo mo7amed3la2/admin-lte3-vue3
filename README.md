@@ -1,4 +1,4 @@
-# modal-project
+# Adminlte3 with Vue.js 3
 
 ## Project setup
 ```
